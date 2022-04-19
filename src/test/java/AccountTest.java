@@ -24,7 +24,7 @@ public class AccountTest {
     }
 
     /**
-     * Always run the code in this function, otherwise errors will occur.
+     * Always run the code in this function whenever your application will end, otherwise errors will occur.
      */
     public void endSession() {
         accountAPI.end();
